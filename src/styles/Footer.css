@@ -1,0 +1,17 @@
+.footer{
+  position:sticky;
+  bottom:0;
+  background-color: #fff;
+}
+
+.graphicContainer{
+  padding-left: 35px;
+}
+
+.footerGraphic{
+  width:300px;
+}
+
+.footerTextBlock{
+  float: right;
+}
