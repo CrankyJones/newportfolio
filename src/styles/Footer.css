@@ -1,17 +1,21 @@
 .footer{
   position:sticky;
+  display: flex;
   bottom:0;
-  background-color: #fff;
 }
 
 .graphicContainer{
   padding-left: 35px;
+  background-color: #fff;
+  /* width:100%; */
 }
 
 .footerGraphic{
   width:300px;
+  height:100%;
 }
 
 .footerTextBlock{
-  float: right;
+  padding-top: 25%;
+  width: 100%;
 }
