@@ -9,12 +9,12 @@ export default function Layout() {
   return (
     <>
       <NavBar 
-        setCurrentPage={setCurrentPage}        
+        setCurrentPage={setCurrentPage} currentPage={currentPage}        
       />
       <Body
         currentPage={currentPage}
       />
-      <Footer/>
+      <Footer currentPage={currentPage}/>
     </>
   )
 }

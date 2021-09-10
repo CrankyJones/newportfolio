@@ -1,4 +1,6 @@
 import React from 'react'
+import '../../src/styles/Education.css'
+
 
 export default function Education() {
   return (

@@ -1,9 +1,10 @@
 import React from 'react'
-import image from '../../assets/topSlice.png'
+import educationImage from '../../assets/topEducationSlice.png'
+import backgroundImage from '../../assets/topBackgroundSlice.png'
 
 import '../../styles/NavBar.css'
 
-export default function NavBar({ setCurrentPage }) {
+export default function NavBar({ setCurrentPage, currentPage }) {
   
   const handleClick = ( PageToDisplay ) => {
     setCurrentPage(PageToDisplay);
@@ -13,7 +14,21 @@ export default function NavBar({ setCurrentPage }) {
     <>
     <div className='header'>
       <div className='graphicContainer'>
-        <img className='headerGraphic' src={image} alt=''/>
+      {currentPage === 0 &&
+          <img className= 'headerGraphic' src={backgroundImage} alt=''/>
+        }
+        {currentPage === 1 &&
+          <img className= 'headerGraphic' src={educationImage} alt=''/>
+        }
+        {currentPage === 2 &&
+          <img className= 'headerGraphic' src={backgroundImage} alt=''/>
+        }
+        {currentPage === 3 &&
+          <img className= 'headerGraphic' src={backgroundImage} alt=''/>
+        }
+        {currentPage === 4 &&
+          <img className= 'headerGraphic' src={backgroundImage} alt=''/>
+        }
       </div>
       <div className='headerQLs'>
         <div className='QL'>

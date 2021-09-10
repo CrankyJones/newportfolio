@@ -2,12 +2,13 @@
   position:sticky;
   display: flex;
   bottom:0;
+  z-index: 100;
+
 }
 
 .graphicContainer{
   padding-left: 35px;
   background-color: #fff;
-  /* width:100%; */
 }
 
 .footerGraphic{
@@ -16,6 +17,16 @@
 }
 
 .footerTextBlock{
-  padding-top: 25%;
+  position: relative;
   width: 100%;
+  background-color: transparent;
+}
+
+.text{
+position:absolute;
+bottom:0;
+height: 15%;
+width:100vw;
+background-color: #fff;
+padding: 5% 10%;
 }

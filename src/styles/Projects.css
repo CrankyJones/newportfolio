@@ -1,0 +1,11 @@
+.project{
+  justify-content: center;
+  text-align: center;
+  background-color: rgb(211, 211, 211);
+  border-radius: 20px;
+  padding: 5%;
+}
+
+.project img{
+  width: 350px;
+}

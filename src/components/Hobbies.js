@@ -1,4 +1,6 @@
 import React from 'react'
+import '../../src/styles/Hobbies.css'
+
 
 export default function Hobbies() {
   return (
