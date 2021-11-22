@@ -3,7 +3,6 @@
   display: flex;
   bottom:0;
   z-index: 100;
-
 }
 
 .graphicContainer{
@@ -12,21 +11,45 @@
 }
 
 .footerGraphic{
+  display:flex;
   width:300px;
   height:100%;
 }
 
 .footerTextBlock{
-  position: relative;
+  position:absolute;
+  bottom:0;  
+  display: flex;
   width: 100%;
   background-color: transparent;
+  justify-content:end;
 }
 
-.text{
-position:absolute;
-bottom:0;
-height: 15%;
-width:100vw;
+.icons{
+position:relative;
+display:flex;
+/* bottom:0;
+right:0; */
+float: right;
+/* height: 15%; */
+/* width:100vw; */
 background-color: #fff;
-padding: 5% 10%;
+/* padding: 5% 10%; */
+}
+
+.textLinks{
+  position:relative;
+  bottom:0;
+  padding-right: 25px;
+}
+
+.textLink{
+  padding-right:25px;
+}
+
+.mediaIcon {
+  max-width: 25px;
+  max-height: 25px;
+  padding-right: 15px;
+  background-color: #fff;
 }

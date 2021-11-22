@@ -1,27 +1,35 @@
-import React from 'react'
-import '../../src/styles/Skills.css'
-
+import React from "react";
+import "../../src/styles/BodyContent.css";
 
 export default function Skills() {
   return (
-    <>
     <div>
-      <div className='skills'>
-        <h2>Languages:</h2>
-        <p>JavaScript</p>
-        <p>Ruby</p>
-        <p>HTML</p>
-        <p>CSS</p>
-        <h2>Frameworks:</h2>
-        <p>Rails</p>
-        <p>Bootstrap</p>
-        <p>jQuery</p>
-        <p>Next.js</p>
-        <h2>Libraries:</h2>
-        <p>React</p>
+      <div className="container">
+        <div className="contentHeading">
+          <h2>Languages:</h2>
+        </div>
+        <ul className='contentBodyI'>
+          <li>JavaScript</li>
+          <li>Ruby</li>
+          <li>HTML</li>
+          <li>CSS</li>
+        </ul>
+        <div className="contentHeading">
+          <h2>Frameworks:</h2>
+        </div>
+        <ul className='contentBodyI'>
+          <li>Rails</li>
+          <li>Bootstrap</li>
+          <li>jQuery</li>
+          <li>Next.js</li>
+        </ul>
+        <div className="contentHeading">
+          <h2>Libraries:</h2>
+        </div>
+        <ul className='contentBodyI'>
+          <li>React</li>
+        </ul>
+      </div>
     </div>
-
-    </div>
-    </>
-  )
+  );
 }

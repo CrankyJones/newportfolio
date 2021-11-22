@@ -1,11 +1,26 @@
-.project{
+.projectsContainer {
+  display:flex;
+  flex-direction: row;
+  margin-top: -10%;
+  padding-left: 10%;
+  padding-bottom: 30%;
+
+}
+
+.project {
+  min-width: 400px;
   justify-content: center;
   text-align: center;
   background-color: rgb(211, 211, 211);
   border-radius: 20px;
   padding: 5%;
+  margin: 5%;
 }
 
-.project img{
+.project img {
   width: 350px;
+}
+
+a {
+  text-decoration: none;
 }

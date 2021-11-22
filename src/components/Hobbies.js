@@ -1,20 +1,20 @@
-import React from 'react'
-import '../../src/styles/Hobbies.css'
-
+import React from "react";
+import "../../src/styles/BodyContent.css";
 
 export default function Hobbies() {
   return (
-    <>
     <div>
-      <div className='hobbies'>
-        <h2>Hobbies:</h2>
-        <p>Music</p>
-        <p>Art</p>
-        <p>Graphic Design</p>
-        <p>Games:</p>
-        <p>Video & Board</p>
+      <div className="container">
+        <div className="contentHeading">
+          <h2>Hobbies:</h2>
+        </div>
+        <ul className="contentBodyI">
+          <li>Music</li>
+          <li>Art</li>
+          <li>Graphic Design</li>
+          <li>Games</li>
+        </ul>
       </div>
     </div>
-    </>
-  )
+  );
 }
