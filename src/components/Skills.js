@@ -8,7 +8,7 @@ export default function Skills() {
         <div className="contentHeading">
           <h2>Languages:</h2>
         </div>
-        <ul className='contentBodyI'>
+        <ul className="contentBodyI">
           <li>JavaScript</li>
           <li>Ruby</li>
           <li>HTML</li>
@@ -17,7 +17,7 @@ export default function Skills() {
         <div className="contentHeading">
           <h2>Frameworks:</h2>
         </div>
-        <ul className='contentBodyI'>
+        <ul className="contentBodyI">
           <li>Rails</li>
           <li>Bootstrap</li>
           <li>jQuery</li>
@@ -26,8 +26,9 @@ export default function Skills() {
         <div className="contentHeading">
           <h2>Libraries:</h2>
         </div>
-        <ul className='contentBodyI'>
+        <ul className="contentBodyI">
           <li>React</li>
+          <li>React Native</li>
         </ul>
       </div>
     </div>
