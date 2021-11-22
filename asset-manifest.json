@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/newportfolio/static/css/main.d86a15dc.chunk.css",
+    "main.js": "/newportfolio/static/js/main.50bdd3aa.chunk.js",
+    "main.js.map": "/newportfolio/static/js/main.50bdd3aa.chunk.js.map",
+    "runtime-main.js": "/newportfolio/static/js/runtime-main.04f109f3.js",
+    "runtime-main.js.map": "/newportfolio/static/js/runtime-main.04f109f3.js.map",
+    "static/js/2.5de02a0d.chunk.js": "/newportfolio/static/js/2.5de02a0d.chunk.js",
+    "static/js/2.5de02a0d.chunk.js.map": "/newportfolio/static/js/2.5de02a0d.chunk.js.map",
+    "static/js/3.f3758b0b.chunk.js": "/newportfolio/static/js/3.f3758b0b.chunk.js",
+    "static/js/3.f3758b0b.chunk.js.map": "/newportfolio/static/js/3.f3758b0b.chunk.js.map",
+    "index.html": "/newportfolio/index.html",
+    "static/css/main.d86a15dc.chunk.css.map": "/newportfolio/static/css/main.d86a15dc.chunk.css.map",
+    "static/js/2.5de02a0d.chunk.js.LICENSE.txt": "/newportfolio/static/js/2.5de02a0d.chunk.js.LICENSE.txt",
+    "static/media/TwitchGlitchBlackOps.72423a2f.png": "/newportfolio/static/media/TwitchGlitchBlackOps.72423a2f.png",
+    "static/media/footerBackgroundSlice.b3d0f612.png": "/newportfolio/static/media/footerBackgroundSlice.b3d0f612.png",
+    "static/media/footerEducationSlice.8ff6675b.png": "/newportfolio/static/media/footerEducationSlice.8ff6675b.png",
+    "static/media/monster.ec7fb3a6.png": "/newportfolio/static/media/monster.ec7fb3a6.png",
+    "static/media/topBackgroundSlice.5b1d434f.png": "/newportfolio/static/media/topBackgroundSlice.5b1d434f.png",
+    "static/media/topEducationSlice.28a37840.png": "/newportfolio/static/media/topEducationSlice.28a37840.png",
+    "static/media/youtube.1b609515.png": "/newportfolio/static/media/youtube.1b609515.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.04f109f3.js",
+    "static/js/2.5de02a0d.chunk.js",
+    "static/css/main.d86a15dc.chunk.css",
+    "static/js/main.50bdd3aa.chunk.js"
+  ]
+}
