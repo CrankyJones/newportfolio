@@ -22,6 +22,8 @@ export default function Skills() {
           <li>Bootstrap</li>
           <li>jQuery</li>
           <li>Next.js</li>
+          <li>Node.js</li>
+          <li>Expo</li>
         </ul>
         <div className="contentHeading">
           <h2>Libraries:</h2>
